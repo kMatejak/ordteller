@@ -13,10 +13,5 @@ def hello_name(name):
     return f"Hello {name}!"
 
 
-@app.route("/yollo")
-def yollo():
-    return "YOLLO"
-
-
 if __name__ == "__main__":
     app.run()
